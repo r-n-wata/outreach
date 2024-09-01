@@ -1,0 +1,198 @@
+@import "../../../stylesConfig/stylesConfig.scss";
+
+.reviewCard {
+  height: 50%;
+  margin: 8px 0;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+
+  .reviewBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: visible;
+    position: relative; // Needed for the pseudo-element
+    transition: box-shadow 0.3s ease;
+
+    .icon {
+      border-radius: 50%;
+      padding: 0.2rem 0.5rem;
+      background-color: $primary-color;
+      margin-bottom: -0.5rem;
+
+      img {
+        width: 1rem !important;
+        height: 0.8rem;
+      }
+    }
+
+    &:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -6px;
+      left: 15px;
+      border-width: 6px 6px 0;
+      border-style: solid;
+      border-color: $secondary-color transparent transparent transparent;
+      z-index: -1;
+    }
+
+    p {
+      font-size: 0.5rem;
+    }
+  }
+
+  .reviewInfoCon {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+
+    img {
+      border-radius: 50%;
+      width: 1.5rem !important;
+      height: 1.5rem !important;
+    }
+
+    .reviewInfo {
+      display: flex;
+      flex-direction: column;
+
+      h4 {
+        margin: 0;
+        font-size: 0.6rem;
+      }
+
+      span {
+        font-size: 0.4rem;
+      }
+
+      span + span {
+        font-size: 0.3rem;
+      }
+
+      .rating img {
+        width: 0.7rem !important;
+        height: 0.7rem !important;
+      }
+    }
+  }
+}
+
+// Responsive styles
+@media (min-width: 1024px) {
+  .reviewCard {
+    margin: 8px -2rem !important;
+    .reviewBox {
+      padding: 20px;
+      p {
+        font-size: 0.6rem;
+      }
+    }
+
+    .reviewInfoCon {
+      margin: 1.3rem 0 0 0.2rem;
+      img {
+        width: 2rem !important;
+        height: 2rem !important;
+      }
+
+      .reviewInfo {
+        h4 {
+          font-size: 0.8rem;
+        }
+
+        span {
+          font-size: 0.5rem;
+        }
+
+        span + span {
+          font-size: 0.4rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .reviewCard {
+    margin: 0px 0rem !important;
+    margin-bottom: 1rem;
+    width: 50%;
+    height: 59%;
+    .reviewBox {
+      height: 100%;
+      padding: 12px;
+      p {
+        font-size: 0.4rem;
+      }
+    }
+
+    .reviewInfoCon {
+      img {
+        width: 1.2rem !important;
+        height: 1.2rem !important;
+      }
+
+      .reviewInfo {
+        h4 {
+          font-size: 0.5rem;
+        }
+
+        span {
+          font-size: 0.35rem;
+        }
+
+        span + span {
+          font-size: 0.25rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .reviewCard {
+    margin: 8px 0 !important;
+    width: 50%;
+    .reviewBox {
+      padding: 10px;
+      p {
+        font-size: 0.35rem !important ;
+      }
+    }
+
+    .reviewInfoCon {
+      margin: 1rem 0 0 0.2rem;
+      img {
+        width: 1.5rem !important;
+        height: 1.5rem !important;
+      }
+
+      .reviewInfo {
+        text-align: start;
+        h4 {
+          font-size: 0.4rem;
+        }
+
+        span {
+          font-size: 0.4rem;
+        }
+
+        span + span {
+          font-size: 0.3rem;
+        }
+      }
+    }
+  }
+}

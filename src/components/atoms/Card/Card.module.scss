@@ -1,0 +1,111 @@
+.card {
+  position: relative;
+  width: 100%; /* Set width to 100% to allow flex to control it */
+  min-height: 750px; // adjust as needed
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white; // adjust if needed
+  overflow: hidden;
+  text-decoration: none; // ensure no underline on link
+  transition: all 0.4s ease; // smooth transition for hover effects
+  border-radius: 2%;
+  box-sizing: border-box; /* Include padding and border in the total width and height */
+
+  &:hover {
+    cursor: pointer;
+    filter: brightness(0.9); // reduce brightness by 10%
+    transform: scale(1.05); // slightly enlarge the card
+  }
+
+  .comingSoon {
+    position: absolute;
+    top: 10%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: 5px;
+    img {
+      width: 10rem;
+    }
+  }
+}
+
+.link {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none; // ensure no underline on link
+}
+
+.content {
+  background: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); // optional background for better text visibility
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  color: white;
+
+  h4 {
+    font-size: 2rem;
+    padding-top: 25rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    width: 75%;
+  }
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 1200px) {
+  .card {
+  }
+
+  .content h4 {
+    font-size: 1.8rem; /* Adjust font size for medium screens */
+  }
+
+  .content p {
+    font-size: 1.1rem; /* Adjust font size for medium screens */
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .content h4 {
+    font-size: 1.6rem; /* Adjust font size for smaller screens */
+    padding-bottom: 20rem;
+  }
+
+  .content p {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    min-height: 400px; /* Adjust height for mobile screens */
+  }
+
+  .content h4 {
+    font-size: 1.4rem; /* Adjust font size for mobile screens */
+    margin-bottom: 0rem;
+    padding: 15rem 0.5rem 0 0.5rem;
+  }
+
+  .content p {
+    font-size: 0.9rem; /* Adjust font size for mobile screens */
+  }
+}

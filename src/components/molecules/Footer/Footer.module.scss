@@ -1,0 +1,30 @@
+@import "../../../stylesConfig/stylesConfig.scss";
+
+.footerContainer {
+  background-color: $background-color1; //padding: 5rem 4rem;
+
+  width: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .footer {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $font-color;
+    padding: 1rem;
+    border-top: 1px solid $font-color;
+    margin-top: 5rem;
+    p {
+      letter-spacing: 0.2rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    font-size: 0.8rem;
+  }
+}

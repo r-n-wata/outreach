@@ -1,0 +1,184 @@
+@import "../../../stylesConfig/stylesConfig.scss";
+$background-color: #5b5a5a;
+$background-image: url("../../../assets/hero.jpg");
+$gradient-start: rgba(45, 36, 34, 0.2);
+$gradient-end: rgba(77, 67, 59, 0.2);
+
+.homeContainer {
+  .backgroundVideoContainer {
+    position: relative;
+    width: 100vw;
+    height: 45rem;
+    overflow: hidden;
+    background-color: $tertairy-color;
+  }
+
+  .backgroundVideo {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the video */
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    min-height: 100%; /* Ensure video covers the container */
+    object-fit: cover; /* Ensure video covers the container without distortion */
+  }
+
+  .wave-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .wave {
+    width: 100%;
+    height: 100px; /* Adjust height based on the SVG's actual height */
+    position: absolute;
+    bottom: 0;
+  }
+  h2 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 0.3rem;
+  }
+  p.extra {
+    margin-top: -1rem;
+    font-style: italic;
+    font-size: 2rem;
+    color: $secondary-color;
+    text-align: center;
+  }
+
+  .aboutUsContainer {
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: $background-color1;
+    height: 32rem;
+
+    div + div {
+      display: flex;
+      justify-content: center;
+      p {
+        color: $font-color;
+        margin: 0;
+        font-style: normal;
+        width: 50%;
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .retreatsContainer {
+    padding: 9rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+      font-style: italic;
+    }
+    .cardContainer {
+      display: flex;
+
+      flex-wrap: wrap; /* Allows cards to wrap if there's not enough space */
+      gap: 16px; /* Adjust the gap between the cards as needed */
+      padding: 2rem 16px; /* Optional: Add some padding around the cards */
+    }
+
+    .cardContainer > div {
+      flex: 1 1 calc(25% - 16px); /* 4 cards per row, accounting for the gap */
+      box-sizing: border-box; /* Ensures padding and border are included in the total width and height */
+    }
+  }
+
+  .reviewsSec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    padding: 6rem 0;
+    background-color: $background-color1; //padding: 5rem 4rem;
+    img {
+      width: 25rem;
+      height: 25rem;
+    }
+  }
+}
+/* Responsive adjustments */
+@media screen and (max-width: 1200px) {
+  .cardContainer > div {
+    flex: 1 1 calc(33.33% - 16px); /* 3 cards per row on medium-sized screens */
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .cardContainer > div {
+    flex: 1 1 calc(50% - 16px); /* 2 cards per row on smaller screens */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .homeContainer {
+    .backgroundVideoContainer {
+      position: relative;
+      width: 100vw;
+      height: 15rem;
+      overflow: hidden;
+      background-color: $tertairy-color;
+
+      .backgroundVideo {
+        top: 50%;
+      }
+    }
+
+    .aboutUsContainer {
+      padding: 2rem 0;
+
+      height: 32rem;
+      h2 {
+        margin: 0;
+        font-size: 1.7rem;
+        letter-spacing: 0.2rem;
+      }
+
+      p {
+        margin-top: -0.5rem;
+        font-size: 1.3rem;
+      }
+
+      div + div {
+        p {
+          margin: 0;
+          width: 80%;
+          font-size: 0.9rem;
+        }
+      }
+    }
+
+    .retreatsContainer,
+    .reviewsSec {
+      text-align: center;
+      h2 {
+        margin: 0;
+        font-size: 1.7rem;
+        letter-spacing: 0.2rem;
+      }
+
+      p {
+        margin-top: -0.5rem;
+        font-size: 1.3rem;
+      }
+    }
+
+    .cardContainer > div {
+      flex: 1 1 100% !important; /* 1 card per row on mobile screens */
+    }
+  }
+}
