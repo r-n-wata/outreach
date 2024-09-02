@@ -1,7 +1,7 @@
 deployment:
   tasks:
     - echo "Starting deployment..."
-    - cd /home2/outretr2/repositories/outretreat && echo "Navigated to repository directory"
+    - cd /home2/outretr2/outretreat && echo "Navigated to repository directory"
     - npm install && echo "Dependencies installed"
     - npm run build && echo "Build completed"
     - export DEPLOY_DIR=/home2/outretr2/public_html && echo "Deployment directory set"
