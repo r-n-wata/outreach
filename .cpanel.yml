@@ -7,3 +7,11 @@ deployment:
     - export DEPLOY_DIR=/home2/outretr2/public_html && echo "Deployment directory set"
     - /bin/cp -R dist/* $DEPLOY_DIR && echo "Files copied to public_html"
     - /bin/cp .env $DEPLOY_DIR/.env && echo ".env copied"
+
+    - echo "Capturing deployment information..."
+    - cd /home2/outretr2/outretreat
+    - echo "Last Deployed on: $(date)" > $DEPLOY_DIR/deployment-info.txt
+    - echo "Last Deployed SHA: $(git rev-parse HEAD)" >> $DEPLOY_DIR/deployment-info.txt
+    - echo "Author: $(git log -1 --pretty=format:'%an')" >> $DEPLOY_DIR/deployment-info.txt
+    - echo "Commit Date: $(git log -1 --pretty=format:'%ad')" >> $DEPLOY_DIR/deployment-info.txt
+    - echo "Deployment information stored."
