@@ -2,7 +2,6 @@ import jungle from "./../assets/jungle/jungleCover.jpg";
 import mountain from "../assets/mountain/21.png";
 import watersport from "../assets/watersport/Kay.jpeg";
 import ocean from "../assets/ocean/oceanCover.jpg";
-import comingSoon from "../assets/comingSoon.jpg";
 
 export const cardInfo = [
   {

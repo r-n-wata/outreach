@@ -1,6 +1,4 @@
 // src/Contact.js
-import React from "react";
-import { Link } from "react-router-dom";
 import styles from "./Contact.module.scss";
 import Navigation from "../../molecules/Navigation/Navigation";
 import background from "./../../../assets/watersport/21-renewals/3.png";
@@ -9,7 +7,7 @@ import Footer from "../../molecules/Footer/Footer";
 const Contact = () => {
   return (
     <>
-      <Navigation />
+      <Navigation imgStyle={{}} />
 
       <div className={styles.contactPage}>
         <div className={styles.contactContainer}>

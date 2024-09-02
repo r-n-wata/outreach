@@ -3,7 +3,6 @@ import { cardInfo } from "../../../utils/cardInfo";
 import Card from "../../atoms/Card/Card";
 import video from "../../../assets/hero.mp4";
 import Reviews from "../../molecules/Reviews/Reviews";
-import reviewImg from "../../../assets/watersport/her.jpeg";
 import Footer from "../../molecules/Footer/Footer";
 import styles from "./Home.module.scss";
 
