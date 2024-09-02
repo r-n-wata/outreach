@@ -1,18 +1,9 @@
 ---
 deployment:
   tasks:
-    - echo "Starting deployment..."
-    - cd /home2/outretr2/outretreats && echo "Navigated to repository directory"
-    - npm install && echo "Dependencies installed"
-    - npm run build && echo "Build completed"
-    - export DEPLOY_DIR=/home2/outretr/public_html && echo "Deployment directory set"
-    - /bin/cp -R dist/* $DEPLOY_DIR && echo "Files copied to public_html"
-    - /bin/cp .env $DEPLOY_DIR/.env && echo ".env copied"
-
-    - echo "Capturing deployment information..."
-    - cd /home2/outretr2/outretreat
-    - echo "Last Deployed on: $(date)" > $DEPLOY_DIR/deployment-info.txt
-    - echo "Last Deployed SHA: $(git rev-parse HEAD)" >> $DEPLOY_DIR/deployment-info.txt
-    - echo "Author: $(git log -1 --pretty=format:'%an')" >> $DEPLOY_DIR/deployment-info.txt
-    - echo "Commit Date: $(git log -1 --pretty=format:'%ad')" >> $DEPLOY_DIR/deployment-info.txt
-    - echo "Deployment information stored."
+    - cd /home4/balumaba/repositories/baluma # Navigate to the repository directory
+    - npm install # Install dependencies
+    - npm run build # Build the application
+    - export DEPLOY_DIR=/home4/balumaba/public_html # Set deployment directory
+    - /bin/cp -R dist/* $DEPLOY_DIR # Copy built files to the deployment directory
+    - /bin/cp .env $DEPLOY_DIR/.env # Optionally copy environment variables
