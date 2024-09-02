@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - cd /home2/outretr2/outretreat # Navigate to the repository directory
+    - cd /home2/outretr2/repositories/outretreat # Navigate to the repository directory
     - npm install # Install dependencies
     - npm run build # Build the application
     - export DEPLOY_DIR=/home2/outretr2/public_html # Set deployment directory
