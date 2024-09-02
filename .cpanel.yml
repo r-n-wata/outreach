@@ -1,3 +1,4 @@
+---
 deployment:
   tasks:
     - echo "Starting deployment..."
