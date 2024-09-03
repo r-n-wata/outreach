@@ -1,9 +1,9 @@
 ---
 deployment:
   tasks:
-    - cd /home2/outretr2/repositories/outreach # Navigate to the repository directory
-    - npm install # Install dependencies
-    - npm run build # Build the application
-    - export DEPLOY_DIR=/home2/outretr2/public_html # Set deployment directory
-    - /bin/cp -R dist/* $DEPLOY_DIR # Copy built files to the deployment directory
-    - /bin/cp .env $DEPLOY_DIR/.env # Optionally copy environment variables
+    - echo "Starting deployment..."
+    - cd /home2/outretr2/repositories/outreach
+    - export DEPLOY_DIR=/home2/outretr2/public_html
+    - /bin/cp -R dist/* $DEPLOY_DIR
+    - /bin/cp .env $DEPLOY_DIR/.env
+    - echo "Deployment completed."
