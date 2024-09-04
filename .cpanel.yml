@@ -1,7 +1,5 @@
----
 deployment:
   tasks:
-    - echo "Starting deployment..."
     - cd /home2/outretr2/repositories/outreach
     - npm install
     - npm run build
