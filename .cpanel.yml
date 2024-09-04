@@ -5,5 +5,4 @@ deployment:
     - cd /home2/outretr2/repositories/outreach
     - export DEPLOY_DIR=/home2/outretr2/public_html
     - /bin/cp -R dist/* $DEPLOY_DIR
-    - /bin/cp .env $DEPLOY_DIR/.env
     - echo "Deployment completed."
