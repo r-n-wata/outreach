@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/organisms/Home/Home";
 import Contact from "./components/organisms/Contact/Contact";
 import WaterSportRetreats from "./components/organisms/WaterSportsRetreats/WaterSportRetreats";
+import MountainRetreats from "./components/organisms/MountainRetreats/MountainRetreats";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "/retreats/watersport",
     element: <WaterSportRetreats />,
+  },
+  {
+    path: "/retreats/mountain",
+    element: <MountainRetreats />,
   },
 ]);
 

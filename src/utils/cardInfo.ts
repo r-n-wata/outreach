@@ -7,7 +7,7 @@ export const cardInfo = [
   {
     title: "MOUNTAIN TRAILS RETREAT",
     desc: "Hiking ,Trekking or climb experience. Explore some of the most incredible trails in the word combining with a healing ceremonies",
-    link: "",
+    link: "/retreats/mountain",
     img: mountain,
   },
   {
@@ -18,7 +18,7 @@ export const cardInfo = [
   },
   {
     title: "JUNGLE ANCESTRAL RETREATS",
-    desc: "Awake your warrior inner self ",
+    desc: "Discover the wisdom of ancient traditions and revitalize your spirit through sacred rituals that promote personal growth, introspection and deep connection with the earth",
     link: "",
     img: jungle,
     comingSoon: true,

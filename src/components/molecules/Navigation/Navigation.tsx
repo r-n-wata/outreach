@@ -42,17 +42,17 @@ function Navigation({ imgStyle }: { imgStyle: { [key: string]: string } }) {
               </Link>
             </li>
             <li>
-              <Link to="/casas/nieves-house" onClick={toggleMenu}>
+              <Link to="/retreats/mountain" onClick={toggleMenu}>
                 MOUNTAIN TRAILS RETREAT
               </Link>
             </li>
             <li>
-              <Link to="/casas/marias-house" onClick={toggleMenu}>
+              <Link to="" onClick={toggleMenu}>
                 OCEANLOVERS RETREATS
               </Link>
             </li>
             <li>
-              <Link to="/casas/casa-azul" onClick={toggleMenu}>
+              <Link to="" onClick={toggleMenu}>
                 JUNGLE ANCESTRAL RETREAT
               </Link>
             </li>

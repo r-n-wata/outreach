@@ -269,6 +269,7 @@ export const mountRetreats = [
       },
     ],
     prices: [{ title: "Private room", price: 5200 }],
+    headerImg: mountain7days1,
   },
   {
     photos: [
@@ -304,5 +305,6 @@ export const mountRetreats = [
       },
     ],
     prices: [{ title: "Private room", price: 5200 }],
+    headerImg: mountain9dayspatagonia1,
   },
 ];
