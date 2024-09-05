@@ -121,8 +121,15 @@ function RetreatsCard({
                 {prices.map((obj) => (
                   <>
                     <p>
-                      {obj.title} <span className={styles.line}></span>
-                      <span>${obj.price}</span>
+                      <span className={styles.title}>{obj.title}</span>
+                      <span className={styles.line}></span>
+                      <span
+                        className={
+                          obj.price.toString().length < 4 ? styles.margin : ""
+                        }
+                      >
+                        {obj.price}
+                      </span>
                     </p>
                   </>
                 ))}
