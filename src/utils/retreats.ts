@@ -64,8 +64,7 @@ export const waterSportRetreats: waterSportRetreatsTypes[] = [
       watersport4days1,
       watersport4days2,
       watersport4days3,
-      watersport4days4,
-      watersport4days5,
+
       watersport4days5,
       watersport4days6,
       watersport4days7,
@@ -99,7 +98,6 @@ export const waterSportRetreats: waterSportRetreatsTypes[] = [
   {
     photos: [
       watersport7day1,
-      watersport7day2,
       watersport7day3,
       watersport7day4,
       watersport7day5,
@@ -141,7 +139,6 @@ export const waterSportRetreats: waterSportRetreatsTypes[] = [
   },
   {
     photos: [
-      watersport4daypaddle1,
       watersport4daypaddle2,
       watersport4daypaddle3,
       //watersport4daypaddle4,
@@ -186,7 +183,6 @@ export const waterSportRetreats: waterSportRetreatsTypes[] = [
       watersport21daysrenewal1,
       watersport21daysrenewal2,
       watersport21daysrenewal3,
-      watersport21daysrenewal4,
       watersport21daysrenewal5,
       watersport21daysrenewal6,
       watersport21daysrenewal7,
@@ -252,7 +248,6 @@ import mountain9dayspatagonia11 from "./../assets/mountain/7-day-patagonia/11.jp
 export const mountRetreats = [
   {
     photos: [
-      mountain7days1,
       mountain7days2,
       mountain7days3,
       mountain7days4,
@@ -288,7 +283,6 @@ export const mountRetreats = [
   },
   {
     photos: [
-      mountain9dayspatagonia1,
       mountain9dayspatagonia2,
       mountain9dayspatagonia3,
       mountain9dayspatagonia4,

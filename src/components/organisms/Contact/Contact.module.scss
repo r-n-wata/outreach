@@ -10,8 +10,8 @@
 
   // Adjust padding and margin on smaller screens
   @media (max-width: 768px) {
-    padding: 1rem;
-    margin: 1rem 0;
+    padding: 4rem 1rem 4rem 1rem;
+    margin: 0;
   }
 }
 
@@ -44,7 +44,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 15rem;
+    width: 20rem;
     img {
     }
   }

@@ -1,10 +1,29 @@
 // src/Contact.js
+import { useState, useEffect } from "react";
 import styles from "./Contact.module.scss";
 import Navigation from "../../molecules/Navigation/Navigation";
-import background from "./../../../assets/watersport/21-renewals/3.png";
+import background1 from "./../../../assets/watersport/21-renewals/3.png";
+import background2 from "./../../../assets/mountain/7-day-peru/7.jpg";
 import Footer from "../../molecules/Footer/Footer";
 
 const Contact = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Function to check the screen width
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 868); // Change the number based on your mobile breakpoint
+    };
+
+    // Check on mount
+    checkMobile();
+
+    // Add resize event listener
+    window.addEventListener("resize", checkMobile);
+
+    // Clean up the event listener
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
   return (
     <>
       <Navigation imgStyle={{}} />
@@ -13,7 +32,7 @@ const Contact = () => {
         <div className={styles.contactContainer}>
           <div className={styles.photoSection}>
             <img
-              src={background}
+              src={isMobile ? background2 : background1}
               alt="Contact"
               className={styles.contactPhoto}
             />
