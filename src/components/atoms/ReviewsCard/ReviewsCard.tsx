@@ -22,18 +22,27 @@ const ReviewCard: React.FC<ReviewCardProps> = ({
     <div className={styles.reviewCard}>
       <div className={styles.reviewBox}>
         <div className={styles.icon}>
-          <img src={speechMarks} alt="" />
+          <img
+            src={speechMarks}
+            alt="reviews speech mark decoration"
+            loading="lazy"
+          />
         </div>
         <p className={styles.reviewText}>{reviewText}</p>
       </div>
 
       <div className={styles.reviewInfoCon}>
-        <img src={user} alt="profile" />{" "}
+        <img src={user} alt="reviews user profile" loading="lazy" />{" "}
         <div className={styles.reviewInfo}>
           <h4 className={styles.reviewName}>{reviewerName}</h4>
           <span className={styles.rating}>
             {Array.from({ length: rating }, (_, index) => (
-              <img src={star} alt="rating stars" key={index} />
+              <img
+                src={star}
+                alt="reviews star rating"
+                key={index}
+                loading="lazy"
+              />
             ))}
           </span>
           <span className={styles.date}>{date}</span>

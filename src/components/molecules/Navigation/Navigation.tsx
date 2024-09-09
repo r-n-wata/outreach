@@ -18,7 +18,13 @@ function Navigation({ imgStyle }: { imgStyle: { [key: string]: string } }) {
   return (
     <nav className={styles.nav}>
       <Link to="/">
-        <img src={Logo} alt="Logo" className={styles.logo} style={imgStyle} />
+        <img
+          src={Logo}
+          alt="outretreat logo"
+          className={styles.logo}
+          style={imgStyle}
+          loading="lazy"
+        />
       </Link>
       <div
         className={`${styles.menuIcon} ${isOpen ? styles.open : ""}`}
@@ -29,7 +35,9 @@ function Navigation({ imgStyle }: { imgStyle: { [key: string]: string } }) {
         <span className={styles.bar}></span>
       </div>
       <ul className={`${isOpen ? styles.open : ""} ${styles.nav_cont}`}>
-        <li>HOME</li>
+        <li>
+          <Link to="/">HOME</Link>
+        </li>
         <li
           className={isDropdownOpen ? "open casaDropdown" : "casaDropdown"}
           onClick={toggleDropdown}

@@ -17,6 +17,7 @@ interface RetreatsCardProp {
   includes: includes[];
   prices: { [key: string]: string | number }[];
   index: number;
+  discounts?: string;
   headerImg: string;
 }
 
@@ -27,6 +28,7 @@ function RetreatsCard({
   includes,
   prices,
   index,
+  discounts,
   headerImg,
 }: RetreatsCardProp) {
   const includesRetreat1 = includes[0];
@@ -39,7 +41,7 @@ function RetreatsCard({
     >
       <div className={styles.header}>
         <div className={styles.headerImg}>
-          <img src={headerImg} alt="" />
+          <img src={headerImg} alt="retreats header image" loading="lazy" />
         </div>
 
         <div className={styles.titleCon}>
@@ -82,7 +84,7 @@ function RetreatsCard({
           >
             {imgs.map((img, index) => (
               <SwiperSlide key={index} className={styles.swiperSlide}>
-                <img src={img} alt="" />
+                <img src={img} alt="retreat slide image" loading="lazy" />
               </SwiperSlide>
             ))}
           </Swiper>
@@ -98,7 +100,7 @@ function RetreatsCard({
                     <p key={i}>
                       {item}
                       <span>
-                        <img src={checkMark} alt="check-mark" />
+                        <img src={checkMark} alt="check-mark" loading="lazy" />
                       </span>
                     </p>
                   ))}
@@ -109,7 +111,7 @@ function RetreatsCard({
                     <p key={i}>
                       {item}
                       <span>
-                        <img src={checkMark} alt="check-mark" />
+                        <img src={checkMark} alt="check-mark" loading="lazy" />
                       </span>
                     </p>
                   ))}
@@ -128,11 +130,14 @@ function RetreatsCard({
                           obj.price.toString().length < 4 ? styles.margin : ""
                         }
                       >
-                        {obj.price}
+                        ${obj.price} USD
                       </span>
                     </p>
                   </>
                 ))}
+              </div>
+              <div className={styles.discounts}>
+                <p>{discounts}</p>
               </div>
             </div>
           </div>

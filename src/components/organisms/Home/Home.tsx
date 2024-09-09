@@ -30,8 +30,8 @@ const Home = () => {
           <p>
             Our mission is to reintegrate individuals into a harmonious state
             with nature and the community through exclusive retreats. We promote
-            practices of outdoor sports, yoga, meditation, and holistic
-            therapies in an idyllic setting. We create transformative
+            practices of adventures outdoor sports, yoga, meditation, and
+            holistic therapies in an idyllic setting. We create transformative
             experiences that allow participants to reconnect with their inner
             selves, revitalize, and rediscover the lost connection with the
             serenity of nature.

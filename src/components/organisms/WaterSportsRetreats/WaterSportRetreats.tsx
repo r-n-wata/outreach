@@ -17,6 +17,7 @@ function WaterSportRetreats() {
           includes={retreat.includes}
           prices={retreat.prices}
           index={index}
+          discounts={retreat.discounts}
           headerImg={retreat.headerImg}
         />
       ))}

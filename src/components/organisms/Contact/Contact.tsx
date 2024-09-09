@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import styles from "./Contact.module.scss";
 import Navigation from "../../molecules/Navigation/Navigation";
-import background1 from "./../../../assets/watersport/21-renewals/3.png";
+import background1 from "./../../../assets/watersport/21-renewals/3.jpg";
 import background2 from "./../../../assets/mountain/7-day-peru/7.jpg";
 import Footer from "../../molecules/Footer/Footer";
 
@@ -35,6 +35,7 @@ const Contact = () => {
               src={isMobile ? background2 : background1}
               alt="Contact"
               className={styles.contactPhoto}
+              loading="lazy"
             />
           </div>
           <div className={styles.infoSection}>

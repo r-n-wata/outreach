@@ -21,7 +21,11 @@ function Card({ title, desc, link, img, isComingSoon }: CardProps) {
       </Link>
       {isComingSoon && (
         <div className={styles.comingSoon}>
-          <img src={comingSoon} alt="Coming Soon" />
+          <img
+            src={comingSoon}
+            alt="Retreats that are coming Soon"
+            loading="lazy"
+          />
         </div>
       )}
     </div>
