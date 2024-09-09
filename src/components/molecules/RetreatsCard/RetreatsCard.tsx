@@ -1,7 +1,7 @@
 import styles from "./RetreatsCard.module.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
-import checkMark from "./../../../assets/icons/check-mark.png";
+import checkMark from "./../../../assets/icons/check-mark.webp";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";

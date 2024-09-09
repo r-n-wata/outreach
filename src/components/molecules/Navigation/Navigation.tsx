@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "./Navigation.module.scss";
-import Logo from "../../../assets/logo.png";
+import Logo from "../../../assets/logo.webp";
 
 function Navigation({ imgStyle }: { imgStyle: { [key: string]: string } }) {
   const [isOpen, setIsOpen] = useState(false);

@@ -1,9 +1,9 @@
 // ReviewCard.tsx
 import React from "react";
 import styles from "./ReviewCard.module.scss";
-import speechMarks from "../../../assets/icons/speechMarks.png";
-import star from "../../../assets/icons/star.png";
-import user from "../../../assets/icons/user.png";
+import speechMarks from "../../../assets/icons/speechMarks.webp";
+import star from "../../../assets/icons/star.webp";
+import user from "../../../assets/icons/user.webp";
 
 interface ReviewCardProps {
   reviewerName: string;

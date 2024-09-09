@@ -1,7 +1,7 @@
 import jungle from "./../assets/jungle/jungleCover.webp";
-import mountain from "../assets/mountain/21.png";
-import watersport from "../assets/watersport/Kay.jpeg";
-import ocean from "../assets/ocean/oceanCover.jpg";
+import mountain from "../assets/mountain/21.webp";
+import watersport from "../assets/watersport/Kay.webp";
+import ocean from "../assets/ocean/oceanCover.webp";
 
 export const cardInfo = [
   {

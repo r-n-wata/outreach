@@ -1,51 +1,51 @@
 import watersport4days1 from "./../assets/watersport/4-day-retreat/01.webp";
-import watersport4days2 from "./../assets/watersport/4-day-retreat/02.jpg";
+import watersport4days2 from "./../assets/watersport/4-day-retreat/02.webp";
 
-import watersport4days3 from "./../assets/watersport/4-day-retreat/03.jpeg";
+import watersport4days3 from "./../assets/watersport/4-day-retreat/03.webp";
 
-import watersport4days4 from "./../assets/watersport/4-day-retreat/04.jpeg";
+import watersport4days4 from "./../assets/watersport/4-day-retreat/04.webp";
 
-import watersport4days5 from "./../assets/watersport/4-day-retreat/05.jpg";
-import watersport4days6 from "./../assets/watersport/4-day-retreat/06.jpg";
-import watersport4days7 from "./../assets/watersport/4-day-retreat/07.jpeg";
+import watersport4days5 from "./../assets/watersport/4-day-retreat/05.webp";
+import watersport4days6 from "./../assets/watersport/4-day-retreat/06.webp";
+import watersport4days7 from "./../assets/watersport/4-day-retreat/07.webp";
 
-import watersport7day1 from "./../assets/watersport/7-day-retreat/1.jpg";
-import watersport7day2 from "./../assets/watersport/7-day-retreat/2.jpeg";
-import watersport7day3 from "./../assets/watersport/7-day-retreat/3.jpeg";
-import watersport7day4 from "./../assets/watersport/7-day-retreat/4.jpeg";
-import watersport7day5 from "./../assets/watersport/7-day-retreat/5.jpeg";
-import watersport7day6 from "./../assets/watersport/7-day-retreat/6.jpg";
-import watersport7day7 from "./../assets/watersport/7-day-retreat/7.jpeg";
-import watersport7day8 from "./../assets/watersport/7-day-retreat/8.jpg";
-import watersport7day9 from "./../assets/watersport/7-day-retreat/9.jpg";
-import watersport7day10 from "./../assets/watersport/7-day-retreat/10.jpeg";
-import watersport7day11 from "./../assets/watersport/7-day-retreat/11.jpeg";
+import watersport7day1 from "./../assets/watersport/7-day-retreat/1.webp";
+import watersport7day2 from "./../assets/watersport/7-day-retreat/2.webp";
+import watersport7day3 from "./../assets/watersport/7-day-retreat/3.webp";
+import watersport7day4 from "./../assets/watersport/7-day-retreat/1.webp";
+import watersport7day5 from "./../assets/watersport/7-day-retreat/5.webp";
+import watersport7day6 from "./../assets/watersport/7-day-retreat/6.webp";
+import watersport7day7 from "./../assets/watersport/7-day-retreat/7.webp";
+import watersport7day8 from "./../assets/watersport/7-day-retreat/8.webp";
+import watersport7day9 from "./../assets/watersport/7-day-retreat/9.webp";
+import watersport7day10 from "./../assets/watersport/7-day-retreat/10.webp";
+import watersport7day11 from "./../assets/watersport/7-day-retreat/11.webp";
 
-import watersport4daypaddle1 from "./../assets/watersport/sup-private-retreat/01.jpg";
-import watersport4daypaddle2 from "./../assets/watersport/sup-private-retreat/02.jpg";
-import watersport4daypaddle3 from "./../assets/watersport/sup-private-retreat/03.jpg";
+import watersport4daypaddle1 from "./../assets/watersport/sup-private-retreat/01.webp";
+import watersport4daypaddle2 from "./../assets/watersport/sup-private-retreat/02.webp";
+import watersport4daypaddle3 from "./../assets/watersport/sup-private-retreat/03.webp";
 //import watersport4daypaddle4 from "./../assets/watersport/sup-private-retreat/04.CR2";
-import watersport4daypaddle5 from "./../assets/watersport/sup-private-retreat/05.jpg";
-import watersport4daypaddle6 from "./../assets/watersport/sup-private-retreat/06.png";
-import watersport4daypaddle7 from "./../assets/watersport/sup-private-retreat/07.png";
-import watersport4daypaddle8 from "./../assets/watersport/sup-private-retreat/08.jpg";
-import watersport4daypaddle10 from "./../assets/watersport/sup-private-retreat/10.jpeg";
-import watersport4daypaddle11 from "./../assets/watersport/sup-private-retreat/11.jpg";
-import watersport4daypaddle12 from "./../assets/watersport/sup-private-retreat/12.jpg";
-import watersport4daypaddle13 from "./../assets/watersport/sup-private-retreat/13.jpeg";
+import watersport4daypaddle5 from "./../assets/watersport/sup-private-retreat/05.webp";
+import watersport4daypaddle6 from "./../assets/watersport/sup-private-retreat/06.webp";
+import watersport4daypaddle7 from "./../assets/watersport/sup-private-retreat/07.webp";
+import watersport4daypaddle8 from "./../assets/watersport/sup-private-retreat/08.webp";
+import watersport4daypaddle10 from "./../assets/watersport/sup-private-retreat/10.webp";
+import watersport4daypaddle11 from "./../assets/watersport/sup-private-retreat/11.webp";
+import watersport4daypaddle12 from "./../assets/watersport/sup-private-retreat/12.webp";
+import watersport4daypaddle13 from "./../assets/watersport/sup-private-retreat/13.webp";
 
-import watersport21daysrenewal1 from "./../assets/watersport/21-renewals/1.jpg";
-import watersport21daysrenewal2 from "./../assets/watersport/21-renewals/2.jpg";
-import watersport21daysrenewal3 from "./../assets/watersport/21-renewals/3.jpg";
-import watersport21daysrenewal4 from "./../assets/watersport/21-renewals/4.jpg";
-import watersport21daysrenewal5 from "./../assets/watersport/21-renewals/5.jpg";
-import watersport21daysrenewal6 from "./../assets/watersport/21-renewals/6.jpg";
-import watersport21daysrenewal7 from "./../assets/watersport/21-renewals/7.jpg";
-import watersport21daysrenewal8 from "./../assets/watersport/21-renewals/8.jpg";
-import watersport21daysrenewal9 from "./../assets/watersport/21-renewals/9.jpg";
-import watersport21daysrenewal11 from "./../assets/watersport/21-renewals/11.jpg";
-import watersport21daysrenewal12 from "./../assets/watersport/21-renewals/12.jpg";
-import watersport21daysrenewal13 from "./../assets/watersport/21-renewals/13.jpg";
+import watersport21daysrenewal1 from "./../assets/watersport/21-renewals/1.webp";
+import watersport21daysrenewal2 from "./../assets/watersport/21-renewals/2.webp";
+import watersport21daysrenewal3 from "./../assets/watersport/21-renewals/3.webp";
+import watersport21daysrenewal4 from "./../assets/watersport/21-renewals/4.webp";
+import watersport21daysrenewal5 from "./../assets/watersport/21-renewals/5.webp";
+import watersport21daysrenewal6 from "./../assets/watersport/21-renewals/6.webp";
+import watersport21daysrenewal7 from "./../assets/watersport/21-renewals/7.webp";
+import watersport21daysrenewal8 from "./../assets/watersport/21-renewals/8.webp";
+import watersport21daysrenewal9 from "./../assets/watersport/21-renewals/9.webp";
+import watersport21daysrenewal11 from "./../assets/watersport/21-renewals/11.webp";
+import watersport21daysrenewal12 from "./../assets/watersport/21-renewals/12.webp";
+import watersport21daysrenewal13 from "./../assets/watersport/21-renewals/13.webp";
 
 import { includes } from "../components/molecules/RetreatsCard/RetreatsCard";
 
@@ -226,26 +226,26 @@ export const waterSportRetreats: retreatsTypes[] = [
   },
 ];
 
-import mountain7days1 from "./../assets/mountain/7-day-peru/1.jpg";
-import mountain7days2 from "./../assets/mountain/7-day-peru/2.png";
-import mountain7days3 from "./../assets/mountain/7-day-peru/3.jpg";
-import mountain7days4 from "./../assets/mountain/7-day-peru/4.jpg";
-import mountain7days5 from "./../assets/mountain/7-day-peru/5.jpg";
-import mountain7days6 from "./../assets/mountain/7-day-peru/6.jpg";
-import mountain7days7 from "./../assets/mountain/7-day-peru/7.jpg";
-import mountain7days8 from "./../assets/mountain/7-day-peru/8.jpg";
+import mountain7days1 from "./../assets/mountain/7-day-peru/1.webp";
+import mountain7days2 from "./../assets/mountain/7-day-peru/2.webp";
+import mountain7days3 from "./../assets/mountain/7-day-peru/3.webp";
+import mountain7days4 from "./../assets/mountain/7-day-peru/4.webp";
+import mountain7days5 from "./../assets/mountain/7-day-peru/5.webp";
+import mountain7days6 from "./../assets/mountain/7-day-peru/6.webp";
+import mountain7days7 from "./../assets/mountain/7-day-peru/7.webp";
+import mountain7days8 from "./../assets/mountain/7-day-peru/8.webp";
 
-import mountain9dayspatagonia1 from "./../assets/mountain/7-day-patagonia/1.jpg";
-import mountain9dayspatagonia2 from "./../assets/mountain/7-day-patagonia/2.jpg";
-import mountain9dayspatagonia3 from "./../assets/mountain/7-day-patagonia/3.jpg";
-import mountain9dayspatagonia4 from "./../assets/mountain/7-day-patagonia/4.jpg";
-import mountain9dayspatagonia5 from "./../assets/mountain/7-day-patagonia/5.jpg";
-import mountain9dayspatagonia6 from "./../assets/mountain/7-day-patagonia/6.jpg";
-import mountain9dayspatagonia7 from "./../assets/mountain/7-day-patagonia/7.jpg";
-import mountain9dayspatagonia8 from "./../assets/mountain/7-day-patagonia/8.jpg";
-import mountain9dayspatagonia9 from "./../assets/mountain/7-day-patagonia/9.jpg";
-import mountain9dayspatagonia10 from "./../assets/mountain/7-day-patagonia/10.jpg";
-import mountain9dayspatagonia11 from "./../assets/mountain/7-day-patagonia/11.jpg";
+import mountain9dayspatagonia1 from "./../assets/mountain/7-day-patagonia/1.webp";
+import mountain9dayspatagonia2 from "./../assets/mountain/7-day-patagonia/2.webp";
+import mountain9dayspatagonia3 from "./../assets/mountain/7-day-patagonia/3.webp";
+import mountain9dayspatagonia4 from "./../assets/mountain/7-day-patagonia/4.webp";
+import mountain9dayspatagonia5 from "./../assets/mountain/7-day-patagonia/5.webp";
+import mountain9dayspatagonia6 from "./../assets/mountain/7-day-patagonia/6.webp";
+import mountain9dayspatagonia7 from "./../assets/mountain/7-day-patagonia/7.webp";
+import mountain9dayspatagonia8 from "./../assets/mountain/7-day-patagonia/8.webp";
+import mountain9dayspatagonia9 from "./../assets/mountain/7-day-patagonia/9.webp";
+import mountain9dayspatagonia10 from "./../assets/mountain/7-day-patagonia/10.webp";
+import mountain9dayspatagonia11 from "./../assets/mountain/7-day-patagonia/11.webp";
 
 export const mountRetreats: retreatsTypes[] = [
   {

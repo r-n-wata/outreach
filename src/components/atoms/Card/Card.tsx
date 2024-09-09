@@ -1,6 +1,6 @@
 import styles from "./Card.module.scss";
 import { Link } from "react-router-dom";
-import comingSoon from "../../../assets/icons/comingSoon.png";
+import comingSoon from "../../../assets/icons/comingSoon.webp";
 
 interface CardProps {
   title: string;
