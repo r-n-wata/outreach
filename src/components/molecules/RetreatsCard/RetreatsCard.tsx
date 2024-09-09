@@ -41,7 +41,7 @@ function RetreatsCard({
     >
       <div className={styles.header}>
         <div className={styles.headerImg}>
-          <img src={headerImg} alt="retreats header image" loading="lazy" />
+          <img src={headerImg} alt="retreats header image" />
         </div>
 
         <div className={styles.titleCon}>
