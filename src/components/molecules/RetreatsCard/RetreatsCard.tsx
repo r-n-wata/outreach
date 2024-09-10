@@ -137,7 +137,7 @@ function RetreatsCard({
                 ))}
               </div>
               <div className={styles.discounts}>
-                <p>{discounts}</p>
+                <p>{`${discounts ? "*" + discounts + "*" : ""}`}</p>
               </div>
             </div>
           </div>

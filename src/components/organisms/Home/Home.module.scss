@@ -112,13 +112,37 @@ $gradient-end: rgba(77, 67, 59, 0.2);
   }
 }
 /* Responsive adjustments */
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1204px) {
+  .homeContainer {
+    .backgroundVideoContainer {
+      height: 48rem;
+
+      .backgroundVideo {
+        top: 50%;
+      }
+    }
+  }
+
   .cardContainer > div {
     flex: 1 1 calc(33.33% - 16px); /* 3 cards per row on medium-sized screens */
   }
 }
 
-@media screen and (max-width: 900px) {
+// Landscape tablets (769px to 1024px)
+@media (min-width: 769px) and (max-width: 1200px) {
+  .homeContainer {
+    .backgroundVideoContainer {
+      height: 48rem;
+      position: relative;
+      width: 100vw;
+      overflow: hidden;
+
+      .backgroundVideo {
+        top: 57%;
+      }
+    }
+  }
+
   .cardContainer > div {
     flex: 1 1 calc(50% - 16px); /* 2 cards per row on smaller screens */
   }
@@ -139,7 +163,7 @@ $gradient-end: rgba(77, 67, 59, 0.2);
     }
 
     .aboutUsContainer {
-      padding: 2rem 0;
+      padding: 1.2rem 0;
 
       height: 32rem;
       h2 {

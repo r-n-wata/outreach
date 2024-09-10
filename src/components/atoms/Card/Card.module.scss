@@ -69,32 +69,86 @@
   }
 }
 
-/* Responsive adjustments */
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1800px) {
   .card {
-  }
+    min-height: 350px; // adjust as needed
+    .content {
+      h4 {
+        font-size: 1.6rem;
+        padding-top: 2rem;
+      }
 
-  .content h4 {
-    font-size: 1.8rem; /* Adjust font size for medium screens */
-  }
-
-  .content p {
-    font-size: 1.1rem; /* Adjust font size for medium screens */
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .content h4 {
-    font-size: 1.6rem; /* Adjust font size for smaller screens */
-    padding-bottom: 20rem;
-  }
-
-  .content p {
-    font-size: 1rem; /* Adjust font size for smaller screens */
+      p {
+        font-size: 1.1rem;
+        margin-bottom: 4rem;
+      }
+    }
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1680px) {
+  .card {
+    min-height: 350px; // adjust as needed
+    .content {
+      h4 {
+        font-size: 1.6rem;
+        padding-top: 27rem;
+      }
+
+      p {
+        font-size: 1.1rem;
+        margin-bottom: 4rem;
+      }
+    }
+    .comingSoon {
+      top: 10%;
+
+      img {
+        width: 7rem;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1290px) {
+  .card {
+    min-height: 350px; // adjust as needed
+    .content {
+      h4 {
+        font-size: 1.6rem;
+        padding-top: 16rem;
+      }
+    }
+  }
+}
+/* Responsive adjustments */
+@media (min-width: 769px) and (max-width: 1084px) {
+  .card {
+    position: relative;
+    width: 100%; /* Set width to 100% to allow flex to control it */
+    min-height: 350px; // adjust as needed
+    .content {
+      h4 {
+        font-size: 1.4rem;
+        padding-top: 9rem;
+      }
+
+      p {
+        font-size: 1rem;
+        width: 75%;
+      }
+    }
+    .comingSoon {
+      top: 12%;
+      left: 24%;
+
+      img {
+        width: 6rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
   .card {
     min-height: 350px; /* Adjust height for mobile screens */
   }

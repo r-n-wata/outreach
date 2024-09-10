@@ -108,7 +108,7 @@ export const waterSportRetreats: retreatsTypes[] = [
       watersport7day10,
       watersport7day11,
     ],
-    title: "7 DAY WATERSPORT RETREAT IMAGEN",
+    title: "7 DAY WATERSPORT RETREAT ",
     summary:
       "Are you seeking to indulge in your favorite water sports amidst an authentic paradise? All levels are welcome join us ",
     includes: [
@@ -187,7 +187,6 @@ export const waterSportRetreats: retreatsTypes[] = [
       watersport21daysrenewal3,
       watersport21daysrenewal5,
       watersport21daysrenewal6,
-      watersport21daysrenewal7,
       watersport21daysrenewal8,
       watersport21daysrenewal9,
       watersport21daysrenewal11,
@@ -221,7 +220,7 @@ export const waterSportRetreats: retreatsTypes[] = [
       },
     ],
     prices: [{ title: "Private cabin for 1 person", price: 5200 }],
-    discounts: "Book now",
+    discounts: "Book Now",
     headerImg: watersport21daysrenewal4,
   },
 ];
