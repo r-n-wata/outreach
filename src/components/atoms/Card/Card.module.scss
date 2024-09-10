@@ -86,7 +86,7 @@
   }
 }
 
-@media screen and (max-width: 1680px) {
+@media screen and (min-width: 1680px) {
   .card {
     min-height: 350px; // adjust as needed
     .content {
@@ -100,22 +100,22 @@
         margin-bottom: 4rem;
       }
     }
-    .comingSoon {
-      top: 10%;
-
-      img {
-        width: 7rem;
-      }
-    }
   }
 }
-@media screen and (max-width: 1290px) {
+@media screen and (min-width: 1290px) {
   .card {
     min-height: 350px; // adjust as needed
     .content {
       h4 {
         font-size: 1.6rem;
         padding-top: 16rem;
+      }
+    }
+    .comingSoon {
+      top: 10%;
+
+      img {
+        width: 7rem;
       }
     }
   }

@@ -111,11 +111,20 @@ $gradient-end: rgba(77, 67, 59, 0.2);
     }
   }
 }
-/* Responsive adjustments */
-@media screen and (min-width: 1204px) {
+
+@media screen and (min-width: 1680px) {
   .homeContainer {
     .backgroundVideoContainer {
-      height: 48rem;
+      height: 43rem;
+    }
+  }
+}
+
+/* Responsive adjustments */
+@media screen and (min-width: 1290px) {
+  .homeContainer {
+    .backgroundVideoContainer {
+      height: 38rem;
 
       .backgroundVideo {
         top: 50%;
