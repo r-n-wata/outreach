@@ -12,7 +12,7 @@ export const cardInfo = [
   },
   {
     title: "WATERSPORT RETREAT",
-    desc: "Reset, Reconnect & Rediscover. Serene exploring the 7-color lagoon & practice outdoor yogafor those who want to reintegrate life in an adequate balance",
+    desc: "Reset, Reconnect & Rediscover. Serene exploring the 7-color lagoon & practice outdoor yoga for those who want to reintegrate life in an adequate balance",
     link: "/retreats/watersport",
     img: watersport,
   },
