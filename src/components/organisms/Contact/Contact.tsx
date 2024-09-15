@@ -8,6 +8,10 @@ import Footer from "../../molecules/Footer/Footer";
 
 const Contact = () => {
   const [isMobile, setIsMobile] = useState(false);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [status, setStatus] = useState(""); // To track form submission status
 
   useEffect(() => {
     // Function to check the screen width
@@ -24,6 +28,49 @@ const Contact = () => {
     // Clean up the event listener
     return () => window.removeEventListener("resize", checkMobile);
   }, []);
+
+  // This useEffect will clear the status after 3 seconds
+  useEffect(() => {
+    if (status) {
+      const timer = setTimeout(() => {
+        setStatus("");
+      }, 3000); // 3 seconds
+
+      return () => clearTimeout(timer); // Cleanup the timer
+    }
+  }, [status]);
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+
+    const payload = {
+      from: email,
+      subject: `Message from ${name}`,
+      text: message,
+    };
+
+    try {
+      const response = await fetch(
+        "https://complete-nedi-freelancing123-168024ba.koyeb.app/send-test-email",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(payload),
+        }
+      );
+
+      if (response.ok) {
+        setStatus("Message sent successfully!");
+      } else {
+        setStatus("Failed to send message.");
+      }
+    } catch (error) {
+      console.error("Error sending message:", error);
+      setStatus("Error sending message.");
+    }
+  };
   return (
     <>
       <Navigation imgStyle={{}} />
@@ -58,26 +105,38 @@ const Contact = () => {
                 Instagram
               </a>
             </div>
-            <form className={styles.contactForm}>
+            <form className={styles.contactForm} onSubmit={handleSubmit}>
               <div className={styles.formGroup}>
                 <label htmlFor="name">Name</label>
-                <input type="text" id="name" className={styles.formControl} />
+                <input
+                  type="text"
+                  id="name"
+                  className={styles.formControl}
+                  onChange={(e) => setName(e.target.value)}
+                />
               </div>
               <div className={styles.formGroup}>
                 <label htmlFor="email">Email</label>
-                <input type="email" id="email" className={styles.formControl} />
+                <input
+                  type="email"
+                  id="email"
+                  className={styles.formControl}
+                  onChange={(e) => setEmail(e.target.value)}
+                />
               </div>
               <div className={styles.formGroup}>
                 <label htmlFor="message">Message</label>
                 <textarea
                   id="message"
                   className={styles.formControl}
+                  onChange={(e) => setMessage(e.target.value)}
                 ></textarea>
               </div>
               <button type="submit" className={styles.submitButton}>
                 Send Message
               </button>
             </form>
+            {status && <p className={styles.statusMessage}>{status}</p>}
           </div>
         </div>
       </div>
