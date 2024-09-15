@@ -263,7 +263,7 @@ export const mountRetreats: retreatsTypes[] = [
       "Are you looking for clarity or inner peace? Join our guided trekking retreat in Huaraz, Peru, where the majestic Andes become an ancient vision quest ceremony.",
     includes: [
       {
-        title: "",
+        title: "WHAT IS INCLUDED",
         list: [
           "6 Nights of accommodation",
           "Breakfast & Lunch",
@@ -301,7 +301,8 @@ export const mountRetreats: retreatsTypes[] = [
       "An unforgettable high-end trip to a hiking paradise with restorative wellness activities, we take you on the best hikes at 4 differents areas of Patagonia.",
     includes: [
       {
-        title: "",
+        title: "WHAT YOU WILL EXPERIENCE",
+
         list: [
           "8 Nights of accommodation",
           "Breakfast & Lunch",
