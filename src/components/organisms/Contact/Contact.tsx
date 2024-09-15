@@ -34,6 +34,9 @@ const Contact = () => {
     if (status) {
       const timer = setTimeout(() => {
         setStatus("");
+        setName("");
+        setEmail("");
+        setMessage("");
       }, 3000); // 3 seconds
 
       return () => clearTimeout(timer); // Cleanup the timer
