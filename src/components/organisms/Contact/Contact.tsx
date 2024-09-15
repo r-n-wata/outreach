@@ -51,7 +51,7 @@ const Contact = () => {
 
     try {
       const response = await fetch(
-        "https://complete-nedi-freelancing123-168024ba.koyeb.app/send-test-email",
+        "https://precise-arabelle-freelancing123-c8e1a149.koyeb.app/send-email",
         {
           method: "POST",
           headers: {
