@@ -5,6 +5,7 @@ import checkMark from "./../../../assets/icons/check-mark.webp";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { Link } from "react-router-dom";
 
 export type includes = {
   [key: string]: string | string[];
@@ -117,7 +118,7 @@ function RetreatsCard({
                   ))}
               </div>
 
-              <div className={styles.priceCon}>
+              {/*   <div className={styles.priceCon}>
                 <h5>Prices: </h5>
 
                 {prices.map((obj) => (
@@ -135,9 +136,17 @@ function RetreatsCard({
                     </p>
                   </>
                 ))}
-              </div>
+              </div> */}
               <div className={styles.discounts}>
                 <p>{`${discounts ? "*" + discounts + "*" : ""}`}</p>
+              </div>
+
+              <div className={styles.bookNowCon}>
+                <Link to={`/contact`}>
+                  <button className={styles.bookNowBtn} type="button">
+                    Book Now
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

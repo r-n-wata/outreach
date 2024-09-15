@@ -50,6 +50,7 @@ import watersport21daysrenewal13 from "./../assets/watersport/21-renewals/13.web
 import { includes } from "../components/molecules/RetreatsCard/RetreatsCard";
 
 interface retreatsTypes {
+  section: string;
   photos: string[];
   title: string;
   summary: string;
@@ -69,6 +70,7 @@ export const waterSportRetreats: retreatsTypes[] = [
       watersport4days6,
       watersport4days7,
     ],
+    section: "4-day-watersport-retreat",
     title: "4 DAY WATERSPORT RETREAT",
     summary:
       "Top short wellness getaway in the heart of Bacalar, one of Mexico’s most enchanting Pueblos Mágicos with expert  watersport guided designed to refresh your mind and body",
@@ -108,6 +110,7 @@ export const waterSportRetreats: retreatsTypes[] = [
       watersport7day10,
       watersport7day11,
     ],
+    section: "7-day-watersport-retreat",
     title: "7 DAY WATERSPORT RETREAT ",
     summary:
       "Escape to Bacalar, one of the hidden gems of the Riviera Maya, embark for a 7-day wellness journey, healing with the water element. All levels are welcome!",
@@ -151,6 +154,7 @@ export const waterSportRetreats: retreatsTypes[] = [
       watersport4daypaddle12,
       watersport4daypaddle13,
     ],
+    section: "4-day-paddle-private-retreat",
     title: "4 DAY STAND UP PADDLE PRIVATE RETREAT",
     summary:
       "Would you like to explore dream places and have the entire landscape just for you",
@@ -192,6 +196,7 @@ export const waterSportRetreats: retreatsTypes[] = [
       watersport21daysrenewal12,
       watersport21daysrenewal13,
     ],
+    section: "21-day-mystic-water-renewal-retreat",
     title: "21 DAY MYSTIC WATER RENEWAL RETREAT",
     summary:
       "Personalized detox retreat , for those who want to reintegrate into everyday life in an adequate balance. Recover from technology addiction, substance abuse, emotional exhaustion, or simply need a deep reset.",
@@ -215,7 +220,7 @@ export const waterSportRetreats: retreatsTypes[] = [
       },
     ],
     prices: [{ title: "Private cabin for 1 person", price: 5200 }],
-    discounts: "Book Now",
+    discounts: "",
     headerImg: watersport21daysrenewal4,
   },
 ];
@@ -252,9 +257,10 @@ export const mountRetreats: retreatsTypes[] = [
       mountain7days7,
       mountain7days8,
     ],
+    section: "7-day-peru",
     title: "7 Day trekking Retreat in Peruvian Andes",
     summary:
-      "Join us for a transformative retreat where the beauty of the Andes becomes the canvas for your personal awakening.",
+      "Are you looking for clarity or inner peace? Join our guided trekking retreat in Huaraz, Peru, where the majestic Andes become an ancient vision quest ceremony.",
     includes: [
       {
         title: "",
@@ -289,8 +295,10 @@ export const mountRetreats: retreatsTypes[] = [
       mountain9dayspatagonia10,
       mountain9dayspatagonia11,
     ],
+    section: "7-day-patagonia",
     title: "9 Day Patagonia Hiking Retreat ",
-    summary: "High-end adventure travel",
+    summary:
+      "An unforgettable high-end trip to a hiking paradise with restorative wellness activities, we take you on the best hikes at 4 differents areas of Patagonia.",
     includes: [
       {
         title: "",

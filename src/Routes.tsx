@@ -12,8 +12,12 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <Home /> },
       { path: "/contact", element: <Contact /> },
-      { path: "/retreats/watersport", element: <WaterSportRetreats /> },
-      { path: "/retreats/mountain", element: <MountainRetreats /> },
+      // Dynamic route to handle sections of WaterSportRetreats
+      {
+        path: "/retreats/watersport/:section?",
+        element: <WaterSportRetreats />,
+      },
+      { path: "/retreats/mountain/:section?", element: <MountainRetreats /> },
     ],
   },
 ]);

@@ -5,6 +5,7 @@ import video from "../../../assets/hero.mp4";
 import Reviews from "../../molecules/Reviews/Reviews";
 import Footer from "../../molecules/Footer/Footer";
 import styles from "./Home.module.scss";
+import ScrollToTopButton from "../../atoms/button/ScrollToTopButton";
 
 const Home = () => {
   return (
@@ -65,6 +66,7 @@ const Home = () => {
       </section>
 
       <Footer />
+      <ScrollToTopButton />
     </div>
   );
 };
