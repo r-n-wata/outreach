@@ -73,7 +73,7 @@ export const waterSportRetreats: retreatsTypes[] = [
     section: "4-day-watersport-retreat",
     title: "4 DAY WATERSPORT RETREAT",
     summary:
-      "Top short wellness getaway in the heart of Bacalar, one of Mexico’s most enchanting Pueblos Mágicos with expert  watersport guided designed to refresh your mind and body",
+      "Top short wellness getaway in the heart of Bacalar, one of Mexico’s most enchanting Pueblos Mágicos with expert watersport guided designed to refresh your mind and body",
     includes: [
       {
         title: "WHAT IS INCLUDED",
@@ -113,7 +113,7 @@ export const waterSportRetreats: retreatsTypes[] = [
     section: "7-day-watersport-retreat",
     title: "7 DAY WATERSPORT RETREAT ",
     summary:
-      "Escape to Bacalar, one of the hidden gems of the Riviera Maya, embark for a 7-day wellness journey, healing with the water element. All levels are welcome!",
+      "Escape to Bacalar, one of the hidden gems of the Riviera Maya, embark for a 7-day wellness journey, healing with the water element.All levels are welcome!",
     includes: [
       {
         title: "WHAT YOU WILL EXPERIENCE",
@@ -157,7 +157,7 @@ export const waterSportRetreats: retreatsTypes[] = [
     section: "4-day-paddle-private-retreat",
     title: "4 DAY STAND UP PADDLE PRIVATE RETREAT",
     summary:
-      "Would you like to explore dream places and have the entire landscape just for you",
+      "Paddle through the most beautiful lagoon in Mexico escape from the crowds to the best SUP spots in Bacalar",
     includes: [
       {
         title: " WHAT MAKES THIS RETREAT SPECIAL",
@@ -199,7 +199,7 @@ export const waterSportRetreats: retreatsTypes[] = [
     section: "21-day-mystic-water-renewal-retreat",
     title: "21 DAY MYSTIC WATER RENEWAL RETREAT",
     summary:
-      "Personalized detox retreat , for those who want to reintegrate into everyday life in an adequate balance. Recover from technology addiction, substance abuse, emotional exhaustion, or simply need a deep reset.",
+      "Personalized detox retreat , for those who want to reintegrate into everyday life in an adequate balance.Recover from technology addiction ,substance abuse, emotional, exhaustion, or simply need a deep reset.",
     includes: [
       {
         title: "Exclusive Wellness Sessionss",
@@ -213,7 +213,6 @@ export const waterSportRetreats: retreatsTypes[] = [
           "Nature Hike (2 excursions)",
           "Hobie cat (2 excursions)",
           "Kayaking in the Lagoon (3 excursions)",
-          "Horse excursion (1 excursion)",
           "Paddle through the serene waters of the lagoon, enhancing physical fitness and mental relaxation (2 excursions)",
           "Immerse local culture with guided tours to nearby historical and cultural landmarks (1 excursions)",
         ],
@@ -254,13 +253,12 @@ export const mountRetreats: retreatsTypes[] = [
       mountain7days4,
       mountain7days5,
       mountain7days6,
-      mountain7days7,
       mountain7days8,
     ],
     section: "7-day-peru",
     title: "7 Day trekking Retreat in Peruvian Andes",
     summary:
-      "Are you looking for clarity or inner peace? Join our guided trekking retreat in Huaraz, Peru, where the majestic Andes become an ancient vision quest ceremony.",
+      "Are you looking for clarity or inner peace? Join our guided trekking retreat in Huaraz, Peru, where the majestic Andes become an ancient vision quest ceremony",
     includes: [
       {
         title: "WHAT IS INCLUDED",
@@ -273,6 +271,7 @@ export const mountRetreats: retreatsTypes[] = [
           "Hatun Machay Hiking / 3 hrs Easy ~  Stone Park",
           "Secret lagoon Trek / 4 hs Moderate",
           "1 Quechua Ritual",
+          "1 ancient vision quest ceremony",
         ],
       },
     ],
@@ -298,20 +297,20 @@ export const mountRetreats: retreatsTypes[] = [
     section: "7-day-patagonia",
     title: "9 Day Patagonia Hiking Retreat ",
     summary:
-      "An unforgettable high-end trip to a hiking paradise with restorative wellness activities, we take you on the best hikes at 4 differents areas of Patagonia.",
+      "An unforgettable high-end trip to a hiking paradise with restorative wellness activities, we take you on the best hikes at 4 differents areas of Patagonia",
     includes: [
       {
         title: "WHAT YOU WILL EXPERIENCE",
 
         list: [
-          "8 Nights of accommodation",
-          "Breakfast & Lunch",
+          "8 Nights of private village accommodation ",
+          "Healthy Breakfast & Lunch",
           "Daily yoga classes",
           "3 Guide Meditation",
-          "1 hiking excursion to Laguna Nimez",
-          "1 hiking excursion to El Chalten the best view",
-          "1 hiking excursion to Perito Moreno Glacier ",
-          "1 Hiking excursion to Rock paintings",
+          "Laguna Nimez Hiking / 3 hrs Easy ~ Best bird watching  from Calafate",
+          "Chalten Hiking full day / 6 hrs Moderate ~ Capri Lagoon &  Condores view point",
+          "1 Perito Moreno Glacier Hiking / 4 hrs Easy",
+          "Rock paintings Hiking  / 4 hrs Easy ",
           "1 Cacao ceremony",
         ],
       },
