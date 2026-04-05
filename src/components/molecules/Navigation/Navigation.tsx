@@ -45,23 +45,13 @@ function Navigation({ imgStyle }: { imgStyle: { [key: string]: string } }) {
           RETREATS
           <ul className={styles.dropdown}>
             <li>
-              <Link to="/retreats/watersport" onClick={toggleMenu}>
-                WATERSPORTS RETREATS
+              <Link to="/water-retreat-bacalar-mexico" onClick={toggleMenu}>
+                WATER RETREAT
               </Link>
             </li>
             <li>
-              <Link to="/retreats/mountain" onClick={toggleMenu}>
-                MOUNTAIN TRAILS RETREAT
-              </Link>
-            </li>
-            <li>
-              <Link to="" onClick={toggleMenu}>
-                OCEANLOVERS RETREATS
-              </Link>
-            </li>
-            <li>
-              <Link to="" onClick={toggleMenu}>
-                JUNGLE ANCESTRAL RETREAT
+              <Link to="/wellness-bacalar-mexico" onClick={toggleMenu}>
+                WELLNESS EXPERIENCE
               </Link>
             </li>
           </ul>
